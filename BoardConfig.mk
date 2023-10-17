@@ -70,3 +70,6 @@ VENDOR_SECURITY_PATCH := 2019-03-01
 
 # Inherit the proprietary files
 include vendor/xiaomi/jason/BoardConfigVendor.mk
+
+# Ignore overriding commands errors
+BUILD_BROKEN_DUP_RULES := true
