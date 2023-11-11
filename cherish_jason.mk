@@ -32,6 +32,10 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
 
+# Maintainer Stuff
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=Marve1ous
+
 PRODUCT_NAME := cherish_jason
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jason
