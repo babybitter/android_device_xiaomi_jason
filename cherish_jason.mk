@@ -24,6 +24,14 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common CherishOS stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
+# CherishOS Flags
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+
 PRODUCT_NAME := cherish_jason
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jason
