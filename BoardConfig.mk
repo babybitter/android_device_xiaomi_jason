@@ -21,6 +21,9 @@
 # definition file).
 #
 
+#Build
+BUILD_BROKEN_DUP_RULES := true
+
 # Inherit from sdm660-common
 include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
