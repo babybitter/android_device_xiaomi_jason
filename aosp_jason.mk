@@ -24,6 +24,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := aosp_jason
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jason
